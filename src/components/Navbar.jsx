@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
+import logo from '../assets/sen-leather-logo.jpg'
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -10,6 +11,7 @@ const Navbar = () => {
   return (
     <nav className="bg-black/50 h-20 w-full fixed z-10 pt-2 pr-6">
       <div className="text-white flex justify-between items-center">
+        {/* <img src={logo} alt="" className="h-[100px] rounded-full"/> */}
         <h1 className="text-3xl ml-4">Sen Leather Works</h1>
         <div className="hidden sm:flex">
           <ul className="flex gap-4 mr-8 text-lg">
