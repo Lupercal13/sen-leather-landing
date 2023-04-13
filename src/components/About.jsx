@@ -14,7 +14,7 @@ const About = () => {
             <div className='flex flex-col gap-10 justify-center items-center md:items-start'>
                 <h1 className='text-5xl  '>Who We Are: </h1>
                 <p className='text-xl md:text-lg tracking-wider md:tracking-wide'>
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit, doloremque exercitationem error debitis quod est quisquam reprehenderit consectetur? Libero repellat tenetur amet a ullam vero molestiae, reprehenderit, quibusdam, explicabo eveniet quod voluptate. Adipisci cum velit quia tempore. Quo consectetur quidem ipsam explicabo, qui asperiores quia, numquam quaerat ea expedita officia.
+                   Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt unde asperiores, aliquid, explicabo est labore obcaecati dignissimos omnis laboriosam reiciendis quos exercitationem consequatur magni illo expedita dolore iste blanditiis nisi hic quae a facilis ut neque? Eveniet perspiciatis et, fugiat ex odio corporis qui magnam cumque in? Est incidunt excepturi eius. Quae minima repellendus hic earum vel, assumenda voluptatibus ullam molestias fuga dolorem blanditiis alias, adipisci nisi. Obcaecati cumque molestiae, dignissimos soluta omnis dolorem nam aut doloribus hic a magni perferendis. Porro vero facilis, quos veniam, quidem saepe magni ratione nulla recusandae numquam provident tempore eaque quibusdam, eveniet rerum rem?
                 </p>
             </div>
 
