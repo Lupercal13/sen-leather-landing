@@ -25,7 +25,7 @@ sen-2010@oasis.ocn.ne.jp</a>
            <p className='flex items-center gap-2 text-xs text-gray-500'>
             <AiOutlineCopyright/> {currentYear}
             </p> 
-            <p className='text-gray-500 text-xs'>Developed by: PayneHausDesign</p>
+            <p className='text-gray-500 text-xs'>Developed by: <span className='text-gray-400'>PayneHausDesign</span></p>
             </div>
 
         </div>

@@ -52,30 +52,38 @@ const Navbar = () => {
           }
         >
           <ul>
-            <li
-              onClick={() => setNav(false)}
-              className="p-4 text-3xl font-bold hover:text-gray-300 cursor-pointer"
-            >
-              Top
-            </li>
-            <li
-              onClick={() => setNav(false)}
-              className="p-4 text-3xl font-bold hover:text-gray-300 cursor-pointer"
-            >
-              About
-            </li>
-            <li
-              onClick={() => setNav(false)}
-              className="p-4 text-3xl font-bold hover:text-gray-300 cursor-pointer"
-            >
-              Gallery
-            </li>
-            <li
-              onClick={() => setNav(false)}
-              className="p-4 text-3xl font-bold hover:text-gray-300 cursor-pointer"
-            >
-              Contact
-            </li>
+            <a href="#home">
+              <li
+                onClick={() => setNav(false)}
+                className="p-4 text-3xl font-bold hover:text-gray-300 cursor-pointer"
+              >
+                Top
+              </li>
+            </a>
+            <a href="#about">
+              <li
+                onClick={() => setNav(false)}
+                className="p-4 text-3xl font-bold hover:text-gray-300 cursor-pointer"
+              >
+                About
+              </li>
+            </a>
+            <a href="#gallery">
+              <li
+                onClick={() => setNav(false)}
+                className="p-4 text-3xl font-bold hover:text-gray-300 cursor-pointer"
+              >
+                Gallery
+              </li>
+            </a>
+            <a href="#contact">
+              <li
+                onClick={() => setNav(false)}
+                className="p-4 text-3xl font-bold hover:text-gray-300 cursor-pointer"
+              >
+                Contact
+              </li>
+            </a>
           </ul>
         </div>
       </div>
