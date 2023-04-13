@@ -24,18 +24,37 @@ const Footer = () => {
           <p className="flex items-center gap-4  hover:text-gray-200 hover:cursor-pointer">
             <BsFillTelephoneFill size={15} /> 0575-46-9917
           </p>
-          <p className="flex items-center gap-4  hover:text-gray-200 hover:cursor-pointer">
-            <MdLocationOn size={15} /> 迫間2082-1 Seki-shi, Gifu, Japan 501-3924
-          </p>
+          <a
+            href="https://goo.gl/maps/wc6rq2BS4dBoQpoP8"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <p className="flex items-center gap-4  hover:text-gray-200 hover:cursor-pointer">
+              <MdLocationOn size={15} /> 迫間2082-1 Seki-shi, Gifu, Japan
+              501-3924
+            </p>
+          </a>
           <div className="flex justify-center gap-8">
-            <BsFacebook
-              className=" hover:text-gray-200 hover:cursor-pointer"
-              size={25}
-            />
-            <BsInstagram
-              className=" hover:text-gray-200 hover:cursor-pointer"
-              size={25}
-            />
+            <a
+              href="http://facebook.com/senleatherworks"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <BsFacebook
+                className=" hover:text-gray-200 hover:cursor-pointer"
+                size={25}
+              />
+            </a>
+            <a
+              href="http://www.instagram.com/senleatherworks"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <BsInstagram
+                className=" hover:text-gray-200 hover:cursor-pointer"
+                size={25}
+              />
+            </a>
           </div>
         </div>
         <div className="ml-4">
@@ -52,4 +71,3 @@ const Footer = () => {
 };
 
 export default Footer;
-
