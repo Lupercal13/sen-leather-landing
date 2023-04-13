@@ -12,13 +12,13 @@ import hairTies from '../assets/hair-ties.jpg'
 
 const Gallery = () => {
   return (
-    <div>
-        <div className="text-center text-5xl font-semibold border-b-4 pb-4 mx-6">
+    <div className="" id="gallery">
+        <div className="text-center text-5xl font-semibold border-b-4 pb-4 mx-6 ">
             <h1>Our Works</h1>
         </div>
 
     <Swiper
-    className="my-20 mx-6"
+    className=""
       modules={[Navigation, Pagination]}
       navigation
       autoHeight
@@ -28,10 +28,10 @@ const Gallery = () => {
       onSlideChange={() => console.log("slide Change")}
       onSwiper={(swiper) => console.log(swiper)}
     >
-      <SwiperSlide><img className="rounded border-2 border-black/50"  src={blackWallet}/></SwiperSlide>
-      <SwiperSlide><img className="rounded border-2 border-black/50" src={orangeWallet}/></SwiperSlide>
-      <SwiperSlide><img className="rounded border-2 border-black/50" src={handCleanerCase}/></SwiperSlide>
-      <SwiperSlide><img className="rounded border-2 border-black/50" src={hairTies}/></SwiperSlide>
+      <SwiperSlide><img className="rounded "  src={blackWallet}/><p></p></SwiperSlide>
+      <SwiperSlide><img className="rounded " src={orangeWallet}/></SwiperSlide>
+      <SwiperSlide><img className="rounded " src={handCleanerCase}/></SwiperSlide>
+      <SwiperSlide><img className="rounded " src={hairTies}/></SwiperSlide>
 
     </Swiper>
     </div>

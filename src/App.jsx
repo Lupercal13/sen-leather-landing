@@ -1,3 +1,5 @@
+
+
 import About from "./components/About"
 import Contact from "./components/Contact"
 import Footer from "./components/Footer"
@@ -8,7 +10,7 @@ import Navbar from "./components/Navbar"
 function App() {
 
   return (
-    <div>
+    <div className="bg-gray-50">
       <Navbar/>
       <Hero/>
       <About/>

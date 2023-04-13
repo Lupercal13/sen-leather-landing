@@ -3,7 +3,7 @@ import profilePic from '../assets/takuya-about.jpg'
 
 const About = () => {
   return (
-    <div className='h-full'>
+    <div className='h-full' id='about'>
         {/* <div className='text-center'>
             <h1 className='text-5xl mb-[10rem] mt-10'>Get to know us</h1>
         </div> */}

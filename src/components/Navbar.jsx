@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
-import logo from '../assets/sen-leather-logo.jpg'
+import logo from "../assets/sen-leather-logo.jpg";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -12,21 +12,29 @@ const Navbar = () => {
     <nav className="bg-black/50 h-20 w-full fixed z-10 pt-2 pr-6">
       <div className="text-white flex justify-between items-center">
         {/* <img src={logo} alt="" className="h-[100px] rounded-full"/> */}
-        <h1 className="text-3xl ml-4">Sen Leather Works</h1>
+        <h1 className="text-2xl ml-4">センレザーワークス</h1>
         <div className="hidden sm:flex">
           <ul className="flex gap-4 mr-8 text-lg">
-            <li className="cursor-pointer hover:text-gray-300 hover:scale-[102%] hover:ease-out ">
-              Top
-            </li>
-            <li className="cursor-pointer hover:text-gray-300 hover:scale-[102%] hover:ease-out ">
-              About
-            </li>
-            <li className="cursor-pointer hover:text-gray-300  hover:scale-[102%] hover:ease-out">
-              Gallery
-            </li>
-            <li className="cursor-pointer hover:text-gray-300  hover:scale-[102%] hover:ease-out">
-              Contact
-            </li>
+            <a href="#home">
+              <li className="cursor-pointer hover:text-gray-300 hover:scale-[102%] hover:ease-out ">
+                Top
+              </li>
+            </a>
+            <a href="#about">
+              <li className="cursor-pointer hover:text-gray-300 hover:scale-[102%] hover:ease-out ">
+                About
+              </li>
+            </a>
+            <a href="#gallery">
+              <li className="cursor-pointer hover:text-gray-300  hover:scale-[102%] hover:ease-out">
+                Gallery
+              </li>
+            </a>
+            <a href="#contact">
+              <li className="cursor-pointer hover:text-gray-300  hover:scale-[102%] hover:ease-out">
+                Contact
+              </li>
+            </a>
           </ul>
         </div>
         {/* Hamburger Menu */}
