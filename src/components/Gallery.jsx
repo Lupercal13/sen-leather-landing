@@ -35,19 +35,19 @@ const Gallery = () => {
       >
         <SwiperSlide>
           <img className="rounded " src={blackWallet} />
-            <p className="text-sm text-center tracking-wide">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta ut est eum harum error rem amet commodi sunt officiis rerum.</p>
+            <p className="text-sm sm:text-base text-center tracking-wide">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta ut est eum harum error rem amet commodi sunt officiis rerum.</p>
         </SwiperSlide>
         <SwiperSlide>
           <img className="rounded " src={orangeWallet} />
-          <p className="text-sm text-center tracking-wide">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, incidunt! Quia laudantium veniam nesciunt, rerum optio ut error quod eaque molestias. Excepturi fuga totam error repellat. Incidunt dolores odio qui?</p>
+          <p className="text-sm sm:text-base text-center tracking-wide">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, incidunt! Quia laudantium veniam nesciunt, rerum optio ut error quod eaque molestias. Excepturi fuga totam error repellat. Incidunt dolores odio qui?</p>
         </SwiperSlide>
         <SwiperSlide>
           <img className="rounded " src={handCleanerCase} />
-          <p className="text-sm text-center tracking-wide">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, eos?</p>
+          <p className="text-sm sm:text-base text-center tracking-wide">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, eos?</p>
         </SwiperSlide>
         <SwiperSlide>
           <img className="rounded " src={hairTies} />
-          <p className="text-sm text-center tracking-wide">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo amet, incidunt ex facilis quidem delectus.</p>
+          <p className="text-sm sm:text-base text-center tracking-wide">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo amet, incidunt ex facilis quidem delectus.</p>
         </SwiperSlide>
       </Swiper>
     </div>

@@ -4,8 +4,8 @@ const Contact = () => {
   return (
     <div>
 
-      <h1 className="pt-4 pb-4 text-4xl font-bold text-center ">Contact Us</h1>
-      <h3 className="text-center text-sm sm:text-md font-semibold tracking-wide border-b-4 mx-6 pb-4">Want to place a custom order or have a question for us, please fill out the form below!</h3>
+      <h1 className="pt-4 pb-4 text-5xl font-bold text-center ">Contact Us</h1>
+      <h3 className="text-center text-sm sm:text-md font-semibold tracking-wide border-b-4 mx-6 pb-4">To place a custom order inquiry please fill out the form below. For all other inquiries please <a className="text-blue-500 hover:cursor-pointer hover:text-blue-400" href="mailto:sen-2010@oasis.ocn.ne.jp">send us an email</a>.</h3>
     <div id="contact" className="w-[75%] m-auto p-4 py-10">
       <form action="#">
         <div className="grid gap-4 w-full py-2">
