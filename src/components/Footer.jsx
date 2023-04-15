@@ -21,9 +21,12 @@ const Footer = () => {
             <BsFillEnvelopeFill size={15} />
             sen-2010@oasis.ocn.ne.jp
           </a>
-          <p className="flex items-center gap-4  hover:text-gray-200 hover:cursor-pointer">
-            <BsFillTelephoneFill size={15} /> 0575-46-9917
-          </p>
+
+          <a href="tel:0575469917">
+            <p className="flex items-center gap-4  hover:text-gray-200 hover:cursor-pointer">
+              <BsFillTelephoneFill size={15} /> 0575-46-9917
+            </p>
+          </a>
           <a
             href="https://goo.gl/maps/wc6rq2BS4dBoQpoP8"
             target="_blank"

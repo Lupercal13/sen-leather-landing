@@ -16,7 +16,7 @@ const Gallery = () => {
   return (
     <div className="my-20" id="gallery">
       <div className="text-center text-5xl font-semibold border-b-4 pb-4 mx-6 ">
-        <h1>Our Works</h1>
+        <h1 id="title">私たちの作品</h1>
       </div>
 
       <Swiper

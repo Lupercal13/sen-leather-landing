@@ -12,27 +12,32 @@ const Navbar = () => {
     <nav className="bg-black/50 h-20 w-full fixed z-10 pt-2 pr-6">
       <div className="text-white flex justify-between items-center">
         {/* <img src={logo} alt="" className="h-[100px] rounded-full"/> */}
-        <h1 className="text-2xl ml-4">センレザーワークス</h1>
+        <h1 style={{fontFamily:"Noto Sans JP"}} className="text-2xl ml-4">センレザーワークス</h1>
         <div className="hidden sm:flex">
           <ul className="flex gap-4 mr-8 text-lg">
             <a href="#home">
               <li className="cursor-pointer hover:text-gray-300 hover:scale-[102%] hover:ease-out ">
-                Top
+              トップへ
               </li>
             </a>
             <a href="#about">
               <li className="cursor-pointer hover:text-gray-300 hover:scale-[102%] hover:ease-out ">
-                About
+              私達について
+              </li>
+            </a>
+            <a href="#about">
+              <li className="cursor-pointer hover:text-gray-300 hover:scale-[102%] hover:ease-out ">
+              すること
               </li>
             </a>
             <a href="#gallery">
               <li className="cursor-pointer hover:text-gray-300  hover:scale-[102%] hover:ease-out">
-                Gallery
+              作品
               </li>
             </a>
             <a href="#contact">
               <li className="cursor-pointer hover:text-gray-300  hover:scale-[102%] hover:ease-out">
-                Contact
+              お問い合わせ
               </li>
             </a>
           </ul>
@@ -47,8 +52,8 @@ const Navbar = () => {
         <div
           className={
             nav
-              ? "md:hidden fixed top-0 left-0 w-full h-screen bg-black/60 flex justify-center items-center ease-in duration-300"
-              : "md:hidden fixed top-[-100%] left-0 w-full h-screen bg-black/60 flex justify-center items-center ease-in duration-300 "
+              ? "md:hidden fixed top-0 left-0 w-full h-screen bg-black/75 flex justify-center items-center ease-in duration-300"
+              : "md:hidden fixed top-[-100%] left-0 w-full h-screen bg-black/75 flex justify-center items-center ease-in duration-300 "
           }
         >
           <ul>
@@ -57,7 +62,7 @@ const Navbar = () => {
                 onClick={() => setNav(false)}
                 className="p-4 text-3xl font-bold hover:text-gray-300 cursor-pointer"
               >
-                Top
+                トップへ
               </li>
             </a>
             <a href="#about">
@@ -65,7 +70,15 @@ const Navbar = () => {
                 onClick={() => setNav(false)}
                 className="p-4 text-3xl font-bold hover:text-gray-300 cursor-pointer"
               >
-                About
+                私達について
+              </li>
+            </a>
+            <a href="#about">
+              <li
+                onClick={() => setNav(false)}
+                className="p-4 text-3xl font-bold hover:text-gray-300 cursor-pointer"
+              >
+                すること
               </li>
             </a>
             <a href="#gallery">
@@ -73,7 +86,7 @@ const Navbar = () => {
                 onClick={() => setNav(false)}
                 className="p-4 text-3xl font-bold hover:text-gray-300 cursor-pointer"
               >
-                Gallery
+                作品
               </li>
             </a>
             <a href="#contact">
@@ -81,7 +94,7 @@ const Navbar = () => {
                 onClick={() => setNav(false)}
                 className="p-4 text-3xl font-bold hover:text-gray-300 cursor-pointer"
               >
-                Contact
+                お問い合わせ
               </li>
             </a>
           </ul>

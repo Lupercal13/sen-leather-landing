@@ -15,8 +15,9 @@ const Hero = () => {
             Sen Leather Works
           </h1>
           <div>
-            <h2 className="text-white font-semibold drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)]  text-2xl">
-              Custom leather crafts
+            <h2 style={{fontFamily:"Noto Sans JP"}} className="text-white font-semibold drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)]  text-2xl">
+              {/* Custom leather crafts */}
+              手作りレザークラフト
             </h2>
           </div>
           <div className="flex gap-8 mt-8 text-white drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)]">
@@ -54,8 +55,8 @@ const Hero = () => {
           </div>
           <div className="mt-28">
             <a href="#contact">
-              <p className=" flex gap-4 items-center text-2xl border rounded p-2 bg-white cursor-pointer hover:scale-[101%] hover:ease-out px-4">
-                Contact Us <FaArrowDown />
+              <p style={{fontFamily:"Noto Sans JP"}} className=" flex gap-2 items-center text-2xl border rounded p-2 bg-white cursor-pointer hover:scale-[101%] hover:ease-out px-4">
+              お問い合わせ <FaArrowDown />
               </p>
             </a>
           </div>

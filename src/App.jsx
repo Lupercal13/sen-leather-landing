@@ -11,7 +11,7 @@ import Services from "./components/Services"
 function App() {
 
   return (
-    <div className="bg-gray-50">
+    <div className="bg-gray-100">
       <Navbar/>
       <Hero/>
       <About/>
